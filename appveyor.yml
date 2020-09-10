@@ -6,8 +6,8 @@ matrix:
 
 environment:
   BUILDING_SYNTHIZER: "true"
-  cflags: -machine:x86
-  cxxflags: -machine:x86
+  cflags: -m32
+  cxxflags: -m32
   ldflags: -machine:x86
 
   synthizer_ci: "true"
