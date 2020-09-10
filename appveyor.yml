@@ -9,7 +9,7 @@ environment:
   cflags: -m32
   cxxflags: -m32
   ldflags: -machine:x86
-
+  APPVEYOR_REPO_TAG: true
   synthizer_ci: "true"
   TWINE_PASSWORD:
     secure: d2vKp79d1l2GRgzol+HVMG3GOsl0Rnq5qkZhKkLslR4=
