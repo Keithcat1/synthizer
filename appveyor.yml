@@ -8,6 +8,7 @@ environment:
   BUILDING_SYNTHIZER: "true"
   cflags: -machine:x86
   cxxflags: -machine:x86
+  ldflags: -machine:x86
 
   synthizer_ci: "true"
   TWINE_PASSWORD:
