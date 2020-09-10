@@ -24,7 +24,7 @@ is nonzero.
   if ($LASTEXITCODE) { Throw "$exe indicated failure (exit code $LASTEXITCODE; full command: $Args)." }
 }
 
-$pyversions = "python38-x32", "python37-x32", "python36-x32"
+$pyversions = "python38-x86", "python37-x86", "python36-x86"
 
 cd bindings\python
 
