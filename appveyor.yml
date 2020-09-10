@@ -11,7 +11,7 @@ environment:
     secure: d2vKp79d1l2GRgzol+HVMG3GOsl0Rnq5qkZhKkLslR4=
 
   matrix:
-    - CI_ARCHITECTURE: 64
+    - CI_ARCHITECTURE: 32
 
 build_script:
 - ps: 'dir Env:'
