@@ -31,6 +31,6 @@ if ($Env:APPVEYOR_REPO_BRANCH -ne "master" -or $Env:APPVEYOR_REPO_TAG -ne "true"
 
 write-output "Releasing"
 
-$pycommand = "c:\python38-x64\python.exe"
+$pycommand = "c:\python38\python.exe"
 invoke-utility $pycommand -m pip install twine
 invoke-utility $pycommand -m twine upload -u camlorn bindings/python/dist/*
